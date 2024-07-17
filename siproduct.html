@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href= />
+
+        <link 
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" 
+        />
+
+        <link rel="stylesheet" href="css\styles.css" />
+
+        <title>E site </title>
+    </head>
+    <body>
+
+        <header class="header">
+            <div class="header__top">
+                <div class=" header__container container">
+                    <div class="header__hello">
+                        <span>E-Hallo</span>
+
+                        <span>address or location</span>
+                    </div>
+                    <p class="header__alert-news">
+                        bon rapport qualité-prix / good value deals 
+                    </p>
+
+                    <a href="login-register.html" class="header__top-action">
+                       Log in or Sign up
+                    </a>
+                </div>
+            </div>
+
+            <nav class="nav container">
+                
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link">Home</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="shop.html" class="nav__link">Shop</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="blog.html" class="nav__link">Blog</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a class="active" href="siproduct.html" class="nav__link">Details/order</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="about.html" class="nav__link">About</a>
+                        </li>
+                    </ul>
+
+                    <div class="header__search">
+                        <input
+                        type="text"
+                        placeholder="search for items.."
+                        class="form__input"
+                        />
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section id="prodetails" class="section-p1">
+            <div class="single-image">
+                <img src="img\products\variations\men-golf-polo-t-shirt-blue.jpg" width="100%" id="MainImage" alt="">
+
+                <div class="small-img-group">
+                    <div class="small-img-col">
+                        <img src="img\products\variations\men-golf-polo-t-shirt-blue.jpg" width="100%" class="small-image" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img\products\variations\men-golf-polo-t-shirt-black.jpg" width="100%" class="small-image" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img\products\variations\men-golf-polo-t-shirt-red.jpg" width="100%" class="small-image" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="signle-p-details">
+                <h6>Home / Polo</h6>
+                <h4>Men's fashion polo</h4>
+                <h2>$15.50</h2>
+                <select>
+                    <option>Select size</option>
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                    <option>XL</option>
+                    <option>XXL</option>
+                </select>
+                <input type="number" value="1">
+                <button class="normal">Add to cart</button>
+                <h4>Product Details</h4>
+                <span>the golf coton polo is made from a substantial 5.0, fabric constructed from 100%cotton</span>
+            </div>
+        </section>
+
+        <section class="products section container">
+            <div class="tab__btns">
+                <span class="tab__btn active-tab" data-target="#featured">Featured</span>
+                <span class="tab__btn" data-target="#popular">Popular</span>
+                <span class="tab__btn" data-target="#new added">New added</span>
+            </div>
+
+            <div class="tab__items">
+                <div class="tab__item active-tab" content id="featured">
+                    <div class="products__container grid">
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="img\products\jeans_1203-8094.avif" alt="" class="product__img default">
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action button__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge blue">Hot</div>   
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">pant jeans</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$134.45</span>
+                                    <span class="old__price">$122.4</span>
+                                </div>
+
+                                <a href="#" class="action button__btn cart__btn"
+                                 aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="img\products\men-athletic-shoes-green.jpg" alt="" class="product__img default">
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action button__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge red">Hot</div>   
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">shoes</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$45.45</span>
+                                    <span class="old__price">$55.4</span>
+                                </div>
+
+                                <a href="#" class="action button__btn cart__btn"
+                                 aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="img\products\men-golf-polo-t-shirt-blue.jpg" alt="" class="product__img default">
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action button__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge chocolate">Hot</div>   
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">polo golf</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$15.45</span>
+                                    <span class="old__price">$20.4</span>
+                                </div>
+
+                                <a href="#" class="action button__btn cart__btn"
+                                 aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="img\products\belts-on-background-260nw-434851519.webp" alt="" class="product__img default">
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action button__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge black">Hot</div>   
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">belts</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$20.45</span>
+                                    <span class="old__price">$30.4</span>
+                                </div>
+
+                                <a href="#" class="action button__btn cart__btn"
+                                 aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab__item" content id="popular">
+                    <div class="products__container grid">
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="img\products\jeans_1203-8094.avif" alt="" class="product__img default">
+
+                                    <img src="img\products\chemise-petits-carreaux.jpg" alt="" class="product__img hover">
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action button__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge blue">Hot</div>   
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">jeans pant</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$134.45</span>
+                                    <span class="old__price">$122.4</span>
+                                </div>
+
+                                <a href="#" class="action button__btn cart__btn"
+                                 aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="img\products\bag.jpg" alt="" class="product__img default">
+
+                                    <img src="img\products\pantalon.jpg" alt="" class="product__img hover">
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action button__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge red">Hot</div>   
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">jeans pant</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$134.45</span>
+                                    <span class="old__price">$122.4</span>
+                                </div>
+
+                                <a href="#" class="action button__btn cart__btn"
+                                 aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="img\products\sandals.jpg" alt="" class="product__img default">
+
+                                    <img src="img\products\dinner-plat.jpg" alt="" class="product__img hover">
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action button__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge chocolate">Hot</div>   
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">jeans pant</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$134.45</span>
+                                    <span class="old__price">$122.4</span>
+                                </div>
+
+                                <a href="#" class="action button__btn cart__btn"
+                                 aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="img\products\belts-on-background-260nw-434851519.webp" alt="" class="product__img default">
+
+                                    <img src="img\products\belt black.jpg" alt="" class="product__img hover">
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action button__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge black">Hot</div>   
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">jeans pant</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$134.45</span>
+                                    <span class="old__price">$122.4</span>
+                                </div>
+
+                                <a href="#" class="action button__btn cart__btn"
+                                 aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="img\products\chargeur.webp" alt="" class="product__img default">
+
+                                    <img src="img\products\chargeur tel.jpg" alt="" class="product__img hover">
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action button__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge black and white">-25%</div>   
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">jeans pant</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$134.45</span>
+                                    <span class="old__price">$122.4</span>
+                                </div>
+
+                                <a href="#" class="action button__btn cart__btn"
+                                 aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="img\products\ecouteur.webp" alt="" class="product__img default">
+
+                                    <img src="img\products\ecouteurs.webp" alt="" class="product__img hover">
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action button__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light pink">-21%</div>   
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">jeans pant</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$134.45</span>
+                                    <span class="old__price">$122.4</span>
+                                </div>
+
+                                <a href="#" class="action button__btn cart__btn"
+                                 aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="img\products\tissue.jpg" alt="" class="product__img default">
+
+                                    <img src="img\products\blender.jpg" alt="" class="product__img hover">
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action button__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge white">-21%</div>   
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">jeans pant</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$134.45</span>
+                                    <span class="old__price">$122.4</span>
+                                </div>
+
+                                <a href="#" class="action button__btn cart__btn"
+                                 aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="img\products\chargeur.webp" alt="" class="product__img default">
+
+                                    <img src="img\products\chargeur tel.jpg" alt="" class="product__img hover">
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action button__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>   
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">jeans pant</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$134.45</span>
+                                    <span class="old__price">$122.4</span>
+                                </div>
+
+                                <a href="#" class="action button__btn cart__btn"
+                                 aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab__item" content id="new-added">
+                    <div class="products__container grid">
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="img\products\jeans_1203-8094.avif" alt="" class="product__img default">
+
+                                    <img src="img\products\chemise-petits-carreaux.jpg" alt="" class="product__img hover">
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action button__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge blue">Hot</div>   
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">jeans pant</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$134.45</span>
+                                    <span class="old__price">$122.4</span>
+                                </div>
+
+                                <a href="#" class="action button__btn cart__btn"
+                                 aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="img\products\bag.jpg" alt="" class="product__img default">
+
+                                    <img src="img\products\pantalon.jpg" alt="" class="product__img hover">
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action button__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge red">Hot</div>   
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">jeans pant</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$134.45</span>
+                                    <span class="old__price">$122.4</span>
+                                </div>
+
+                                <a href="#" class="action button__btn cart__btn"
+                                 aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="img\products\sandals.jpg" alt="" class="product__img default">
+
+                                    <img src="img\products\dinner-plat.jpg" alt="" class="product__img hover">
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action button__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge chocolate">Hot</div>   
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">jeans pant</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$134.45</span>
+                                    <span class="old__price">$122.4</span>
+                                </div>
+
+                                <a href="#" class="action button__btn cart__btn"
+                                 aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="img\products\belts-on-background-260nw-434851519.webp" alt="" class="product__img default">
+
+                                    <img src="img\products\belt black.jpg" alt="" class="product__img hover">
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action button__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge black">Hot</div>   
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">jeans pant</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$134.45</span>
+                                    <span class="old__price">$122.4</span>
+                                </div>
+
+                                <a href="#" class="action button__btn cart__btn"
+                                 aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="img\products\chargeur.webp" alt="" class="product__img default">
+
+                                    <img src="img\products\chargeur tel.jpg" alt="" class="product__img hover">
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action button__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge black and white">-25%</div>   
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">jeans pant</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$134.45</span>
+                                    <span class="old__price">$122.4</span>
+                                </div>
+
+                                <a href="#" class="action button__btn cart__btn"
+                                 aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="img\products\ecouteur.webp" alt="" class="product__img default">
+
+                                    <img src="img\products\ecouteurs.webp" alt="" class="product__img hover">
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action button__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light pink">-21%</div>   
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">jeans pant</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$134.45</span>
+                                    <span class="old__price">$122.4</span>
+                                </div>
+
+                                <a href="#" class="action button__btn cart__btn"
+                                 aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="img\products\tissue.jpg" alt="" class="product__img default">
+
+                                    <img src="img\products\blender.jpg" alt="" class="product__img hover">
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action button__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge white">-21%</div>   
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">jeans pant</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$134.45</span>
+                                    <span class="old__price">$122.4</span>
+                                </div>
+
+                                <a href="#" class="action button__btn cart__btn"
+                                 aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="img\products\chargeur.webp" alt="" class="product__img default">
+
+                                    <img src="img\products\chargeur tel.jpg" alt="" class="product__img hover">
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action button__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="Add To Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+
+                                    <a href="#" class="action button__btn" aria-label="compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>   
+                            </div>
+
+                            <div class="product__content">
+                                <span class="product__category">Clothing</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">jeans pant</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">$134.45</span>
+                                    <span class="old__price">$122.4</span>
+                                </div>
+
+                                <a href="#" class="action button__btn cart__btn"
+                                 aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="deals section">
+            <div class="deals__container container grid">
+                <div class="deals__item">
+                    <div class="deals__group">
+                        <h3 class="deals__brand">Deals of Day</h3>
+                        <span class="deals__category">limited quatities.</span>
+                    </div>
+
+                    <h4 class="deals__title">Summer Collection New Morden Design</h4>
+
+                    <div class="deals__price flex">
+                        <span class="new__price ">$135.00</span>
+                        <span class="old__price ">$150.00</span>
+                    </div>
+
+                    <div class="deals__group">
+                        <p class="deals__countdown-text">Hurry Up! Offer End In:</p>
+
+                        <div class="countdown">
+                            <div class="countdown__amount">
+                                <p class="countdown__period">02</p>
+                                <span class="unit">Days</span>
+                            </div>
+                            <div class="countdown__amount">
+                                <p class="countdown__period">20</p>
+                                <span class="unit">Hours</span>
+                            </div>
+                            <div class="countdown__amount">
+                                <p class="countdown__period">47</p>
+                                <span class="unit">Mins</span>
+                            </div>
+                            <div class="countdown__amount">
+                                <p class="countdown__period">28</p>
+                                <span class="unit">Sec</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="deals__btn">
+                        <a href="details.html" class="btn btn--md">Shop Now</a>
+                    </div>
+                </div>
+
+                <div class="deals__item">
+                    <div class="deals__group">
+                        <h3 class="deals__brand">Women Clothing</h3>
+                        <span class="deals__category">limited quatities.</span>
+                    </div>
+
+                    <h4 class="deals__title">try something new on vacation</h4>
+
+                    <div class="deals__price flex">
+                        <span class="new__price ">$135.00</span>
+                        <span class="old__price ">$150.00</span>
+                    </div>
+
+                    <div class="deals__group">
+                        <p class="deals__countdown-text">Hurry Up! Offer End In:</p>
+
+                        <div class="countdown">
+                            <div class="countdown__amount">
+                                <p class="countdown__period">02</p>
+                                <span class="unit">Days</span>
+                            </div>
+                            <div class="countdown__amount">
+                                <p class="countdown__period">20</p>
+                                <span class="unit">Hours</span>
+                            </div>
+                            <div class="countdown__amount">
+                                <p class="countdown__period">47</p>
+                                <span class="unit">Mins</span>
+                            </div>
+                            <div class="countdown__amount">
+                                <p class="countdown__period">28</p>
+                                <span class="unit">Sec</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="deals__btn">
+                        <a href="details.html" class="btn btn--md">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer"></footer>
+
+        <script>
+            var MainImage = document.getElementById("MainImage");
+            var smallimage = document.getElementsByClassName("small-image");
+
+            smallimage[0].onclick = function(){
+                MainImage.src = smallimage[0].src;
+            }
+            smallimage[1].onclick = function(){
+                MainImage.src = smallimage[1].src;
+            }
+            smallimage[2].onclick = function(){
+                MainImage.src = smallimage[2].src;
+            }
+            
+        </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        
+        <script src="js\mains.js"></script>
+
+    </body>
+</html>
